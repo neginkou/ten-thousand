@@ -1,29 +1,28 @@
 # Chatgpt Prompts
 
-## Prompt 1:
+## Prompt 1
 
 I copied and pasted the requirements and tasks section of the lab and also provided with the tests and then asked chatgpt: Based on those requirements and codes below write codes to pass the test for me.  
 
-## Answer: 
+## Answer 1
 
 30 failed, 32 passed
 
-## Prompt 2: 
+## Prompt 2
 
 I copied and pasted the results That I got from my terminal.
 
-## Answer:
+## Answer 2
 
 It seems that many of your tests in test_calculate_score.py are failing. Based on the provided test summary, it appears that the expected values in your test cases do not match the actual values returned by the calculate_score method.
 
 To debug and fix these issues, let's go through some common problems that might be causing the failures
 
-## Prompt 3: 
+## Prompt 3
 
-Based on my command line output modify my code to pass all the tests. 
+Based on my command line output modify my code to pass all the tests.
 
-## Answer 
+## Answer 3
 
-Sure, here is the modified code with the changes explained earlier and provided me with the modified code. 
+Sure, here is the modified code with the changes explained earlier and provided me with the modified code.
 Resulted: 5 failed, 57 passed
-
