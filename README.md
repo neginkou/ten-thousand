@@ -25,3 +25,19 @@ Any tests of note?
 Describe any tests that you did not complete, skipped, etc
 
 In the provided code and test cases, there are no tests that have been skipped or not completed. All the tests have been defined and executed as part of the test suite.
+
+## LAB - Class 07
+
+## Project: Ten Thousand 2
+
+### Author: Negin Koushkakinejad and pair programming with Immanuel Shin and Myyela Isaac
+
+Links and Resources:
+
+Chatgpt
+
+Class demo and test files
+
+Tests:
+
+python -m ten_thousand.game
