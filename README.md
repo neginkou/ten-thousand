@@ -8,6 +8,8 @@ Links and Resources
 
 [Chatgpt](https://chat.openai.com/share/8f10ef5f-ed2f-49fc-abd8-63ac2f085b82)
 
+[prompts](prompt.md)
+
 ### Setup
 
 Create virtual environment: .venv
@@ -29,6 +31,23 @@ In the provided code and test cases, there are no tests that have been skipped o
 ## LAB - Class 07
 
 ## Project: Ten Thousand 2
+
+### Author: Negin Koushkakinejad and pair programming with Immanuel Shin and Myyela Isaac
+
+Links and Resources:
+
+Chatgpt
+
+Class demo and test files
+
+Tests:
+
+python -m ten_thousand.game
+
+
+## LAB - Class 08
+
+## Project: Ten Thousand 3
 
 ### Author: Negin Koushkakinejad and pair programming with Immanuel Shin and Myyela Isaac
 
