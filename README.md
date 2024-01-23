@@ -44,12 +44,11 @@ Tests:
 
 python -m ten_thousand.game
 
-
 ## LAB - Class 08
 
 ## Project: Ten Thousand 3
 
-### Author: Negin Koushkakinejad and pair programming with Immanuel Shin and Myyela Isaac
+### Author: Negin Koushkakinejad and pair programming with Immanuel Shin and Myyela Isaac (Part 2)
 
 Links and Resources:
 

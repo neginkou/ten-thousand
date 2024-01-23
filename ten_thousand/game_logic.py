@@ -54,3 +54,23 @@ class GameLogic:
             raise ValueError("Number of dice must be between 1 and 6")
         # Generate a tuple of random dice values based on the input number of dice
         return tuple(random.randint(1, 6) for _ in range(num_dice))
+    
+    @staticmethod
+    def validate_keepers(roll, keepers):
+        roll_counts = {x: roll.count(x) for x in set(roll)}  # Count the occurrences of each value in the roll
+        for keeper in keepers:
+            if keeper not in roll_counts or roll_counts[keeper] < keepers.count(keeper):
+                return False  # Ensure that the selected keepers are valid based on the roll
+        return True
+    @staticmethod
+    def get_scorers(dice_roll):
+        scorers = []
+        # Add logic to identify scorers and append them to the 'scorers' list
+        counts = {x: dice_roll.count(x) for x in set(dice_roll)}
+        for num, count in counts.items():
+            if num == 1 or num == 5:
+                for _ in range(count):
+                    scorers.append(num)
+            elif count >= 3:
+                scorers.extend([num] * 3)
+        return tuple(scorers)
